@@ -2,6 +2,7 @@ h1,h2,h3,h4 {
     font-family: cursive, sans-serif;
     font-size: 2em;  
     background-color: rgb(150, 121, 121);
+    text-align: center;
     
 
     
@@ -13,10 +14,13 @@ h1,h2,h3,h4 {
           
           
       }
+      ol li:nth-child(odd) {
+        color: rgb(150, 121, 121);
+      }
 
      .importante {
             font-family: monospace, sans-serif;
-            
+            margin-left: 15px;
       }
 
       img {
@@ -33,17 +37,18 @@ h1,h2,h3,h4 {
          
       }
        
+      #foto2{
+        float: left;
+        height: 517px;
+        padding: 10px;
+        background-color: lightcoral;
+      }
+     
 
-      .paragrafo{
-        width: 750px;
-        height: 1px;
-        margin: 100px;
-        font-size: 24px;
-        line-height: 40px;
-        margin-left: 330px;
-        top: 30px;
+      .paragrafo {
+        height: 557px;
         
       }
       
-
-
+      
+    
